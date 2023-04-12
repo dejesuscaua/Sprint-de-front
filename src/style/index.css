@@ -1,0 +1,43 @@
+body {
+    background-color: #252525;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header {
+    font-size: 2rem;
+    margin-top: 50px;
+    color: #FAF4D3;
+    display: flex  ;
+    justify-content: center;
+  }
+  
+  #botao {
+    text-align: center;
+    margin-top: 12rem;
+    display: flex  ;
+    justify-content: center;
+    
+  }
+  
+  button {
+    padding: 30px 90px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: none;
+    background-color: #004643;
+    color: #fff;
+    cursor: pointer;
+     display: flex  ;
+    justify-content: center;
+  }
+  
+  button:hover {
+    background-color: #06a79e;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
