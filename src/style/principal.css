@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  #topo{
+     background-color: #004643;
+  
+  }
+  #logo{
+    width: 15%;
+  }
+  body{
+    background-color: #D8D8D8;
+  }
+  table{
+    margin-top: 10rem;
+    margin-left: 2rem;
+}
+td{
+    padding: 0.25rem;
+    
+}
+a{
+    margin-left: 1rem;
+}
+
