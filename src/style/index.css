@@ -1,43 +1,33 @@
-body {
-    background-color: #252525;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-  }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sora', sans-serif;
   
-  header {
-    font-size: 2rem;
-    margin-top: 50px;
-    color: #FAF4D3;
-    display: flex  ;
-    justify-content: center;
   }
+
+#titulo{
+  background-color: #004643;
   
-  #botao {
-    text-align: center;
-    margin-top: 12rem;
-    display: flex  ;
-    justify-content: center;
-    
-  }
-  
-  button {
-    padding: 30px 90px;
-    font-size: 1.2em;
-    border-radius: 5px;
-    border: none;
-    background-color: #004643;
-    color: #fff;
-    cursor: pointer;
-     display: flex  ;
-    justify-content: center;
-  }
-  
-  button:hover {
-    background-color: #06a79e;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #fff;
-  }
-  
+}
+#logo{
+  width: 12%;
+  margin-left: 2rem;
+}
+body{
+  background-color:#D8D8D8;
+}
+#corpo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#vento{
+  margin-top: 4rem ;
+  margin-left: 3rem;
+  width: 40%;
+}
+#botao{
+  margin-top: 5rem;
+  margin-right: 15rem;
+  width: 15%;
+}

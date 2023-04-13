@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sora', sans-serif;
+
+}
+
+#titulo {
+    background-color: #004643;
+
+}
+
+#logo {
+    width: 12%;
+    margin-left: 2rem;
+}
+
+body {
+    background-color: #D8D8D8;
+}
+
+#corpo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tabela {
+    margin-left: 5rem;
+    margin-top: 15rem;
+    padding: 2rem;
+}
+
+td{
+    padding: 0.75rem;
+}
+a{
+    margin-left: 2rem;
+    padding: 1rem;
+}
+
+#electri{
+    width: 25%;
+    margin-top: 10rem;
+    margin-right: 15rem;
+}
