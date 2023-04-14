@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projeto de Loja de Tênis</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		nav {
+			background-color: #333;
+			color: #fff;
+			position: fixed;
+			top: 0;
+			width: 100%;
+			z-index: 1;
+			transition: all 0.3s ease-in-out;
+		}
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 200;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		nav li a {
+			display: block;
+			padding: 10px 20px;
+			color: #fff;
+			text-decoration: none;
+		}
+		section {
+			padding: 50px;
+			opacity: 0;
+			transform: translateY(50px);
+			transition: all 0.5s ease-in-out;
+		}
+		section.visible {
+			opacity: 1;
+			transform: translateY(0);
+		}
+		h2 {
+			margin-top: 0;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">Sobre Nós</a></li>
+			<li><a href="#products">Produtos</a></li>
+			<li><a href="#services">Serviços</a></li>
+			<li><a href="#testimonials">Depoimentos</a></li>
+			<li><a href="#contact">Contato</a></li>
+            <li><a href="modelo_login.html">Login</a></li>
+		</ul>
+	</nav>
+	<section id="home">
+		<h2>Bem-vindo à Loja de Tênis</h2>
+		<p>Aqui na nossa loja, você encontra os melhores tênis para suas atividades físicas e esportes. Temos uma grande variedade de modelos e marcas, além de oferecermos um atendimento especializado e serviços diferenciados.</p>
+		<p>Conheça nossa coleção de tênis de corrida, tênis de basquete, tênis para caminhada e muitos outros modelos que atendem às suas necessidades. Venha nos visitar!</p>
+	</section>
+	<section id="about">
+		<h2>Sobre Nós</h2>
+		<p>Somos uma loja de tênis especializada em oferecer aos nossos clientes produtos de qualidade e atendimento personalizado. Contamos com uma equipe de profissionais capacitados e experientes, prontos para ajudá-lo a escolher o tênis ideal para suas necessidades.</p>
+		<p>Estamos no mercado há mais de 10 anos e já ajudamos milhares de pessoas a encontrar o tênis perfeito para suas atividades. Trabalhamos com as melhores marcas e garantimos a qualidade de todos os produtos que vendemos.</p>
+	</section>
+	<section id="products">
+		<h2>Produtos</h2>
+		<p>Temos uma grande variedade de tênis de marcas renomadas, como Nike, Adidas, Puma, Asics e muitas ... outras. Oferecemos tênis para diversas atividades físicas, como corrida, caminhada, basquete, tênis de mesa, tênis de campo e muito mais.</p>
+		<p>Além dos tênis, também vendemos acessórios esportivos, como meias, camisetas, bermudas e bonés. Tudo para deixar sua prática esportiva ainda mais confortável e segura.</p>
+	</section>
+	<section id="services">
+		<h2>Serviços</h2>
+		<p>Além da venda de tênis e acessórios esportivos, oferecemos diversos serviços para nossos clientes, como:</p>
+		<ul>
+			<li>Troca de produto em até 30 dias</li>
+			<li>Assistência técnica especializada</li>
+			<li>Personalização de tênis</li>
+			<li>Descontos especiais para atletas profissionais</li>
+			<li>Eventos de corrida e caminhada</li>
+		</ul>
+		<p>Visite nossa loja e conheça todos os nossos serviços!</p>
+	</section>
+	<section id="testimonials">
+		<h2>Depoimentos</h2>
+		<p>"Comprei um tênis de corrida na Loja de Tênis e estou muito satisfeito com o atendimento e a qualidade do produto. Recomendo!" - João Silva</p>
+		<p>"A equipe da Loja de Tênis é muito atenciosa e me ajudou a escolher o tênis ideal para minha prática de basquete. Obrigado!" - Maria Santos</p>
+		<p>"Já comprei vários tênis na Loja de Tênis e sempre fui muito bem atendido. Os produtos são de excelente qualidade e durabilidade." - José Ferreira</p>
+	</section>
+	<section id="contact">
+		<h2>Contato</h2>
+		<p>Estamos sempre à disposição para atendê-lo e ajudá-lo a escolher o melhor tênis para suas atividades físicas. Entre em contato conosco pelos canais abaixo:</p>
+		<ul>
+			<li>Telefone: (11) 5555-5555</li>
+			<li>E-mail: contato@lojadetenis.com.br</li>
+			<li>Endereço: Rua Alegria, 123 - São Paulo/SP</li>
+		</ul>
+	</section>
+	<script>
+		window.addEventListener('scroll', () => {
+			const sections = document.querySelectorAll('section');
+			sections.forEach(section => {
+				const sectionTop = section.getBoundingClientRect().top;
+				const windowHeight = window.innerHeight;
+				if (sectionTop < (windowHeight - 200)) {
+					section.classList.add('visible');
+				}
+			});
+		});
+	</script>
+</body>
+</html>
+
