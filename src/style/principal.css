@@ -23,6 +23,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10rem;
+}
+#fontes{
+    margin-bottom: 10rem;
 }
 
 #tabela {
@@ -44,3 +48,46 @@ a{
     margin-top: 10rem;
     margin-right: 15rem;
 }
+
+table {
+    margin:2rem;
+    margin-top: 5rem;
+    border-collapse: collapse;
+
+}
+.tabela_fontes {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #004643;
+    color: white;
+}
+
+
+table {
+    margin-left: 2rem;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    
+}
+
+th {
+    background-color: #004643;
+    
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+a {
+    font-size: 24px;
+}
+

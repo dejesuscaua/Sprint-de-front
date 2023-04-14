@@ -15,23 +15,3 @@
 body{
   background-color:#D8D8D8;
 }
-table {
-    margin:2rem;
-    margin-top: 5rem;
-    border-collapse: collapse;
-
-}
-th, td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: center;
-}
-th {
-    background-color: #004643;
-    color: white;
-}
-
-#Home{
-    margin: 2rem;
-    
-}

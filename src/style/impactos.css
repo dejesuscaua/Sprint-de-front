@@ -16,26 +16,32 @@
 body{
   background-color:#D8D8D8;
 }
+p{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+#corpo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 table {
-    border-collapse: collapse;
-    width: 100%;
-    background-color: #f2f2f2;
+    margin-left: 2rem;
 }
 
 th, td {
     text-align: left;
     padding: 8px;
-    border: 1px solid #ddd;
+    
 }
 
 th {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #004643;
+    
 }
 
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
+
 
 h1 {
     text-align: center;
